@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URIS_OrderService", "URIS_MessageBrokerExample\URIS_OrderService.csproj", "{78925371-D1AF-4707-BCC4-1EBAD2F3F353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URIS_PackageService", "URIS_PackageService\URIS_PackageService.csproj", "{BA45D8E5-AC0E-4C19-A25C-844BB7805D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker", "MessageBroker\MessageBroker.csproj", "{2E7E1892-9123-4931-892B-6BBE90931891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaMessageBus", "KafkaMessageBus\KafkaMessageBus.csproj", "{7B6EE455-2FFC-4118-8145-5A38529284E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBrokerBus", "MessageBrokerBus\MessageBrokerBus.csproj", "{B8326AED-D489-44A6-8CC3-74FD9F27D665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketHandler", "SocketHandler\SocketHandler.csproj", "{17067334-B221-4B7A-B8D4-E030F8A97FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78925371-D1AF-4707-BCC4-1EBAD2F3F353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78925371-D1AF-4707-BCC4-1EBAD2F3F353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78925371-D1AF-4707-BCC4-1EBAD2F3F353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78925371-D1AF-4707-BCC4-1EBAD2F3F353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA45D8E5-AC0E-4C19-A25C-844BB7805D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA45D8E5-AC0E-4C19-A25C-844BB7805D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA45D8E5-AC0E-4C19-A25C-844BB7805D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA45D8E5-AC0E-4C19-A25C-844BB7805D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7E1892-9123-4931-892B-6BBE90931891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7E1892-9123-4931-892B-6BBE90931891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7E1892-9123-4931-892B-6BBE90931891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7E1892-9123-4931-892B-6BBE90931891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6EE455-2FFC-4118-8145-5A38529284E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6EE455-2FFC-4118-8145-5A38529284E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6EE455-2FFC-4118-8145-5A38529284E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6EE455-2FFC-4118-8145-5A38529284E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8326AED-D489-44A6-8CC3-74FD9F27D665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8326AED-D489-44A6-8CC3-74FD9F27D665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8326AED-D489-44A6-8CC3-74FD9F27D665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8326AED-D489-44A6-8CC3-74FD9F27D665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17067334-B221-4B7A-B8D4-E030F8A97FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17067334-B221-4B7A-B8D4-E030F8A97FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17067334-B221-4B7A-B8D4-E030F8A97FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17067334-B221-4B7A-B8D4-E030F8A97FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {882D6A67-E611-43AD-A788-842D174FADD1}
+	EndGlobalSection
+EndGlobal
