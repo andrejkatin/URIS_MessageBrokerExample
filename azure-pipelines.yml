@@ -24,8 +24,6 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'andrejkatin_URIS_MessageBrokerExample'
     projectName: 'URIS_MessageBrokerExample'
-    
-- task: SonarCloudAnalyze@1
 
 - task: NuGetCommand@2
   inputs:
@@ -42,3 +40,5 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    
+- task: SonarCloudAnalyze@1
