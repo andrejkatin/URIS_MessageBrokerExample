@@ -16,6 +16,15 @@ variables:
 
 steps:
 - task: NuGetToolInstaller@1
+  
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'andrejkatin'
+    scannerMode: 'MSBuild'
+    projectKey: 'andrejkatin_URIS_MessageBrokerExample'
+    projectName: 'URIS_MessageBrokerExample'
+    
 - task: SonarCloudAnalyze@1
 
 - task: NuGetCommand@2
